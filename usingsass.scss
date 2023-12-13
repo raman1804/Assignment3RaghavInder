@@ -1,0 +1,26 @@
+$menucolor:yellow;
+$menuhover:white;
+$btncolor:red;
+$border:1px dashed black;
+$padding:30px;
+$rad:25px;
+$transform:uppercase;
+nav a{
+    color:$menucolor;
+}
+nav a:hover{
+    color:$menuhover;
+}
+button{
+    background-color: $btncolor;
+}
+button{
+    &::after{
+        text-transform: $transform;
+    }  
+}
+form{
+    border: $border;
+    padding: $padding;
+    border-radius: $rad;
+}

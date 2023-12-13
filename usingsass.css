@@ -1,0 +1,21 @@
+nav a {
+  color: yellow;
+}
+
+nav a:hover {
+  color: white;
+}
+
+button {
+  background-color: red;
+}
+
+button::after {
+  text-transform: uppercase;
+}
+
+form {
+  border: 1px dashed black;
+  padding: 30px;
+  border-radius: 25px;
+}/*# sourceMappingURL=usingsass.css.map */
